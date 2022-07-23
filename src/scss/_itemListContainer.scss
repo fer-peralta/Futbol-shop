@@ -1,0 +1,16 @@
+.itemList {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    height: 96.5vh;
+
+    h1 {
+        
+        font-size: calc(32px + 20px + 2vmin);
+        color: darkcyan;
+    }
+
+}
+

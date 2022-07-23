@@ -1,0 +1,51 @@
+.navTop {
+
+    background-color: black;
+    height: 8vh;
+    display: flex;
+
+    .navList {
+
+        display: flex;
+        justify-content: center;
+
+        button {
+
+            border-right: 0.5px solid wheat;
+            border-left: 0.5px solid wheat;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: calc(6px + 2vmin);
+            color: wheat;
+            background-color: black;
+            margin-left: 8px;
+            margin-right: 8px;
+            
+            &:hover {
+
+                color: black;
+                background-color: wheat;
+
+            }
+    
+        }
+
+    }  
+
+    div {
+
+        align-items: center;
+        display: flex;
+        margin-right: 30vh;
+        margin-left: 10vh!important;
+
+    }
+
+    img {
+
+        max-width: 90%;
+        max-height: 90%;
+
+    }
+
+}
