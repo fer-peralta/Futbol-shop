@@ -1,15 +1,13 @@
-.itemList {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(241, 241, 241);
-    height: 96.5vh;
+.itemListContainer {
 
     h1 {
         
-        font-size: calc(32px + 20px + 2vmin);
+        margin-top: 40px;
+        text-align: center;
+        font-size: calc(52px + 2vmin);
         color: darkcyan;
+        height: 10vh;
+
     }
 
 }

@@ -1,0 +1,36 @@
+.counter {
+
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+
+        font-size: calc(52px + 2vmin);
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    ul {
+
+        display: flex;
+        justify-content: center;
+
+        button {
+
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 10px;
+            font-size: 20px;
+            background-color: black;
+            color: wheat;
+
+        }
+
+    }
+
+}
