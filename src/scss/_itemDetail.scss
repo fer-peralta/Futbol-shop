@@ -1,0 +1,54 @@
+.detail_container {
+
+    width: 50%;
+    margin: auto;
+
+}
+
+.item_detail_card {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;    
+    border: solid rgb(242, 242, 242);
+
+    .img_item_detail {
+
+        width: 700px;
+
+        img {
+
+            width: 80%;
+            min-width: 450px;
+            max-height: 500px;
+            object-fit: cover;
+            margin-right: 40px;
+    
+        }
+
+    }
+
+    h2 {
+
+        height: 60px;
+        font-weight: lighter;
+
+    }
+
+    p {
+
+        margin-bottom: 30px;
+
+    }
+
+    .price_detail {
+
+        font-weight: bolder;
+        font-size: calc(8px + 2vmin);
+        color: rgb(201, 91, 51);
+        text-align: center;
+
+    }
+
+}

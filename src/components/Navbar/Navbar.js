@@ -1,18 +1,20 @@
 import CartWidget from "../CartWidget/CartWidget"
 import Logo from "../../images/logo_large.png"
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
     return (
         <nav className="navTop">
-            <div>
-                <img src={Logo} alt="Logotipo" />
+            <div className="div_logo">
+                {/* <img src={Logo} alt="Logotipo" /> */}
+                <Link to="/"><img src={Logo} alt="Logotipo"  className="home_button"/></Link>
             </div>
             <div className="navList">
-                <button>Nacionales</button>
-                <button>Internacionales</button>
-                <button>Paises</button>
-                <button>Retro</button>
-                <button>Nosotros</button>
+                <Link to="category/nacionales" className="nav_buttons">Nacionales</Link>
+                <Link to="category/internacionales" className="nav_buttons">Internacionales</Link>
+                <Link to="category/paises" className="nav_buttons">Paises</Link>
+                <Link to="category/retro" className="nav_buttons">Retro</Link>
+                <Link to="category/nosotros" className="nav_buttons">Nosotros</Link>
             </div>  
             <CartWidget />        
         </nav>

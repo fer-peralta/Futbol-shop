@@ -1,19 +1,21 @@
 .cartWidget {
 
-    display: flex;
-    align-items: center;
-    margin-right: 10vh!important;
+    height: 10vh;
+    width: 12vh;
+    margin-left: 300px;
+    margin-right: 10vh;
     
-    img {
+    .cart_icon {
 
-        transform: scale(.7);
+        max-width: 80%;
+        max-height: 80%;
 
     }
 
     span {
 
         margin-left: 10px;
-        font-size: calc(6px + 2vmin);
+        font-size: calc(10px + 2vmin);
         font-weight: bold;
         color: wheat;
 

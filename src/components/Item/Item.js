@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 const Item = ({product}) => {
     return (
         //card
@@ -5,7 +7,10 @@ const Item = ({product}) => {
             <div className="item_card">
                 <img src={product.img} alt={product.name} />
                 <h3>{product.name}</h3>
-                <p>${product.price}</p>
+                <div className="item_price_details">
+                    <p>${product.price}</p>
+                    <Link to={`/detail/${product.id}`} className="see_detail">Ver detalle</Link>
+                </div>
             </div> 
         </li>
     )
