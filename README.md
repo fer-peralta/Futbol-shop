@@ -2,10 +2,10 @@
 
 ## Running Locally
 
-$ git clone https://github.com/fer-peralta/proyecto-react.git
-$ cd zuvcommerce
-$ npm install
-$ npm start
+- $ git clone https://github.com/fer-peralta/proyecto-react.git
+- $ cd my-app
+- $ npm install
+- $ npm start
 
 ## Built using
 
