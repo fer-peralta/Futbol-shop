@@ -2,7 +2,10 @@ import CartWidget from "../CartWidget/CartWidget"
 import Logo from "../../images/logo_large.png"
 import {Link} from "react-router-dom"
 
+
 const Navbar = () => {
+
+
     return (
         <nav className="navTop">
             <div className="div_logo">
