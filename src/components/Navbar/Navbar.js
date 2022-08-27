@@ -9,7 +9,6 @@ const Navbar = () => {
     return (
         <nav className="navTop">
             <div className="div_logo">
-                {/* <img src={Logo} alt="Logotipo" /> */}
                 <Link to="/"><img src={Logo} alt="Logotipo"  className="home_button"/></Link>
             </div>
             <div className="navList">

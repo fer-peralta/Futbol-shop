@@ -1,0 +1,58 @@
+.checkout {
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+
+    h1 {
+
+        font-size: calc(40px + 2vmin);
+
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        label {
+
+            margin-bottom: 10px;
+            font-weight: bold;
+
+        }
+
+        input {
+            
+            text-align: center;
+            font-size: 100%;
+            width: 300px;
+            margin-bottom: 10px;
+            height: 30px;
+            padding: 5px;
+            border: none;
+            background-color: wheat;
+            border-radius: 5px;
+
+        }
+
+    }
+
+    button {
+
+        font-size: 20px;
+        background-color: black;
+        color: wheat;
+        width: 130px;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+
+
+
+}
