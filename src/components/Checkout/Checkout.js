@@ -1,7 +1,7 @@
 import { useState, useContext } from "react"
 import CartContext from "../../context/CartContext"
 import { db } from "../../services/firebase"
-import { addDoc, collection,updateDoc, doc, getDocs, query, where, documentId, writeBatch } from "firebase/firestore"
+import { addDoc, collection, getDocs, query, where, documentId, writeBatch } from "firebase/firestore"
 import { useNavigate } from "react-router-dom"
 
 const Checkout = () => {
